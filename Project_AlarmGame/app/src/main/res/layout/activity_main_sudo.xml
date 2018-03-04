@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Use LinearLayout to set the arrangment and set a body gradient -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCDD2">
+
+    <!-- Include the header which generates the Sudoku label -->
+
+
+    <!-- Create the buttons for Level 1 and Level 2 -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_level_1"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/mybutton"
+            android:text="@string/level_1"/>
+        <Button
+            android:background="@drawable/mybutton"
+            android:id="@+id/btn_level_2"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/level_2"/>
+    </LinearLayout>
+
+    <!-- Include the footer which adds my name and student ID -->
+
+</LinearLayout>

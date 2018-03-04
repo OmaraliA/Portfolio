@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:text="WakeUp!"
+        android:textAlignment="center"
+        android:textSize="60dp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/image2"
+        android:layout_marginLeft="0dp"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@drawable/border"
+        android:paddingTop="0dp"/>
+<LinearLayout
+    android:layout_height="100dp"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal">
+
+
+
+    <ImageButton
+        android:id="@+id/imageButtonSc"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/transparent"
+        android:onClick="addAlarm"
+        android:src="@drawable/clock" />
+
+</LinearLayout>
+</LinearLayout>
