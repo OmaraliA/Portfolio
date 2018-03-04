@@ -1,0 +1,171 @@
+body {
+background-image: url("1.jpg");
+background-repeat: no-repeat;
+ background-size: cover; 
+
+
+}
+
+p {
+  text-align: justify;
+  margin-left: 150px;
+  width: 300px;
+}
+.circular {
+        width: 200px;
+        height: 130px;
+        border-radius: 150px;
+        margin-right: 50px;
+        margin-left: 30px;
+        float: left;
+        border-radius: 100px;
+        background: url("2.jpg") no-repeat;
+}
+h1 {
+
+  font-size: 100px;
+   margin-top: 200px;
+   text-align: center;
+    -webkit-animation: bounceInDown ;
+    -webkit-animation-duration: 2s; 
+    animation: bounceInDown ;
+    animation-duration: 2s;
+    color: white;
+}
+  @keyframes bounceInDown {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  font: 100%/1.6 Ubuntu;
+  height: 100%;
+}
+
+.modal{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  z-index: 1;
+  padding-top: 120px;
+}
+
+.modal__form{
+  box-shadow: 2px 2px 25px 2px black;
+  width: 500px;
+    height: 250px;
+  margin: -350px auto;
+  text-align: center;
+  background: white;
+}
+
+.modal__form h2{
+  margin-bottom: 20px;
+}
+
+.modal__form input{
+  font-size: 1.2em;
+  padding-left: 15px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.callModal{
+  margin-left: 500px;
+  margin-top: 100px;
+  height: 30px;
+  width: 100px;
+}
+
+.register {
+
+  margin-left: 30px;
+  margin-top: 100px;
+  height: 30px;
+  width: 100px;
+}
+
+.closeButton{
+  margin-left: 95%;
+  cursor: pointer;
+}
+
+@keyframes fadeIn{
+  from {transform: scale(0);}
+  to {transform: scale(1);}
+}
+
+.animate{
+  animation: fadeIn 0.8s;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px black; 
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-left: 170px;
+    border-radius: 6px;
+
+
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

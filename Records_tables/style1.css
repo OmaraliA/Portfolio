@@ -1,0 +1,82 @@
+body {
+	padding-top: 150px;
+	background: rgba(192, 57, 43,1.0);
+font-family: 'Nunito', sans-serif;
+	color: black;
+
+}
+.word {
+	text-align: center;
+}
+
+.first_name {
+	//margin-top: 50px;
+
+	//margin-left: 160px;
+}
+
+
+.last_name {
+	//margin-left: 160px;
+
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+.email_address {
+
+	margin-left: 160px;
+}
+
+.change {
+	width: 174px;
+	margin-left: 160px;
+
+}
+
+
+h3 {
+	margin-left: 10px;
+}
+
+.all {
+	display: inline-block;
+	background-color: white;
+	width: 1000px;
+	height: 300px;
+	
+	margin-left: 150px;
+	margin-right: 100px;
+}
+
+.first {
+	background-color: white;
+
+	display: inline-block;
+	padding-top:50px;
+ 	width: 300px;
+	margin-left: 90px;
+}
+
+
+.second{
+	display: inline-block;
+	padding-top:50px;
+ 	width: 300px;
+	//margin-left: 350px;
+}
+
+.third {
+	display: inline-block;
+	padding-top:50px;
+	width: 300px;
+	//margin-left: 400px;
+}
+
+button {
+	//margin-left: 50px;
+	font-family: 'Baloo Tamma';
+	width: 175px;
+}

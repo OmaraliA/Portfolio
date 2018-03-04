@@ -1,0 +1,53 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: rgba(46, 204, 113,1.0);
+		color: white;
+	font-family: 'Nunito', sans-serif;
+		font-size: 13pt;
+		font-weight: 300;
+		color: #656565;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 700;
+		color: black;
+		padding-top: 50px;
+		text-align: center;
+	}
+	
+	.buttons {
+		margin-top: 50px;
+		
+
+		text-align: center;
+
+
+	}
+
+	button {
+		height: 40px;
+		width: 90px;
+		padding: 10px;
+	}
+	
+	.accessform {
+
+		height: 300px;
+		width: 500px;
+		
+		//margin-right: 200px;
+	
+		background: rgba(236, 240, 241,0.8);
+
+	}

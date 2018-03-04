@@ -1,0 +1,42 @@
+.table {
+
+	height: 400px;
+	width: 300px;
+	padding-left: 70px;
+	background-color: rgba(189, 195, 199,1.0);
+	margin-left: 500px;
+	margin-top: 150px;
+}
+
+
+p {
+	font-size: 1.6em;
+	text-align: center;
+
+}
+#submit {
+
+width: 173px;
+
+}
+form {
+
+	height: 400px;
+	width: 300px;
+	
+	background-color: rgba(189, 195, 199,1.0);
+	margin-left: 500px;
+	margin-top: 150px;
+}
+
+input {
+margin-top: 10px;
+margin-left: 58px;
+
+}
+
+
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: rgba(44, 62, 80,1.0);
+}
