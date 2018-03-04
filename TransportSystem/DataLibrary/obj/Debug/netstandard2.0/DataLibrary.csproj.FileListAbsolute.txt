@@ -1,0 +1,8 @@
+C:\Users\андрей\Desktop\NET\Midterm\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\андрей\Desktop\NET\Midterm\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfoInputs.cache
+C:\Users\андрей\Desktop\NET\Midterm\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfo.cs
+C:\Users\андрей\Desktop\NET\Midterm\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.deps.json
+C:\Users\андрей\Desktop\NET\Midterm\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\андрей\Desktop\NET\Midterm\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.pdb
+C:\Users\андрей\Desktop\NET\Midterm\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\андрей\Desktop\NET\Midterm\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb

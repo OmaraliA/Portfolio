@@ -1,0 +1,65 @@
+@model DataLibrary.Models.Order
+
+<head>
+    <title></title>
+    <style>
+
+        .main {
+            width: 400px;
+            height: 650px;
+            border: 1px solid #000;
+            display: block;
+            margin-left: 350px;
+            margin-top:150px;        
+        }
+        .texts {
+            width: 200px;
+            padding-top: 15px;
+            margin-left: 100px;
+           
+        }
+        h4{
+            margin-left:150px;
+        
+        }
+        .operation{
+            width: 50px;
+            height: 30px;
+            margin-left: 200px;
+        }
+
+        .button {
+            margin-left: 180px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<div class="main">
+    <form action="NewOrder" method="post">
+        <h4>ID</h4>
+          <br />
+        <input type = "text" name="ID" class="texts"/>
+        <br />
+         <br />
+        <h4> Distance ID</h4>
+           <br />
+        <input type = "text" name="DistanceID" class="texts"/>
+        <br />
+  <h4> Category ID</h4>
+           <br />
+        <input type = "text" name="CategoryID" class="texts"/>
+        <br />
+
+          <h4> Ordered Date</h4>
+           <br />
+        <input type = "text" name="OrderedDate" class="texts"/>
+        <br />
+  <h4> Customer</h4>
+           <br />
+        <input type = "text" name="Customer" class="texts"/>
+        <br />
+
+        <input type="submit" value="Add" class="button"/>
+ 
+        </form >
+</div>

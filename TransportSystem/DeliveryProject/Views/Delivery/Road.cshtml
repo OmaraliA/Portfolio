@@ -1,0 +1,25 @@
+@using System.Linq
+@using DataLibrary.Models
+
+@model List<Road>
+@using System.Collections.Generic
+<table class="table">
+    <thead>
+     <tr>
+        <th> DistanceID  </th>
+        <th> Road  </th>
+        <th> Duration  </th>
+
+     </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td> @item.DistanceID </td>
+            <td> @item.RoadDistance </td>
+            <td> @item.Duration days </td>
+        </tr>
+    }
+    </tbody>
+</table> 

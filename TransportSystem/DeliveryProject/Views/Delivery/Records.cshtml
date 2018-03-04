@@ -1,0 +1,55 @@
+@using System.Linq
+@using DataLibrary.Models
+
+@model List<Records>
+
+@using System.Collections.Generic
+<table class="table">
+    <thead>
+     <tr>
+        <th>ID</th>
+        <th>Customer</th>
+        <th>Road</th>
+        <th>Ordered Date</th>
+        <th>Delivered Date</th>
+        <th>Type</th>
+        <th>Price</th>
+     </tr>
+    </thead>
+    <tbody>
+
+        
+        
+    @foreach(var item in Model)
+    {
+        <tr>
+       
+         @if(item.DeliveredDate < DateTime.Now)
+        {
+          
+             <td style="color:red;"> @item.ID </td>
+             <td style="color:red;"> @item.Customer</td>
+             <td style="color:red;"> @item.RoadDistance</td>
+             <td style="color:red;"> @item.OrderedDate </td>
+             <td style="color:red;"> @item.DeliveredDate </td>
+             <td style="color:red;"> @item.Type</td>
+            <td style="color:red;">  @item.Price</td>
+        }
+        else {
+          <td> @item.ID </td>
+            <td>@item.Customer</td>
+            <td>@item.RoadDistance</td>
+            <td> @item.OrderedDate </td>
+            <td> @item.DeliveredDate </td>
+            <td>@item.Type</td>
+            <td>@item.Price</td>
+        }
+        </tr>
+    }
+    </tbody>
+</table> 
+
+
+
+
+

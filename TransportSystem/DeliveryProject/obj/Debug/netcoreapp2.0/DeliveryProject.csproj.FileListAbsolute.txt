@@ -1,0 +1,12 @@
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\obj\Debug\netcoreapp2.0\DeliveryProject.csproj.CoreCompileInputs.cache
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\obj\Debug\netcoreapp2.0\DeliveryProject.AssemblyInfoInputs.cache
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\obj\Debug\netcoreapp2.0\DeliveryProject.AssemblyInfo.cs
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\bin\Debug\netcoreapp2.0\DeliveryProject.deps.json
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\bin\Debug\netcoreapp2.0\DeliveryProject.runtimeconfig.json
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\bin\Debug\netcoreapp2.0\DeliveryProject.runtimeconfig.dev.json
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\bin\Debug\netcoreapp2.0\DeliveryProject.dll
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\bin\Debug\netcoreapp2.0\DeliveryProject.pdb
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\bin\Debug\netcoreapp2.0\DataLibrary.dll
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\bin\Debug\netcoreapp2.0\DataLibrary.pdb
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\obj\Debug\netcoreapp2.0\DeliveryProject.dll
+C:\Users\андрей\Desktop\NET\Midterm\DeliveryProject\obj\Debug\netcoreapp2.0\DeliveryProject.pdb
