@@ -1,0 +1,96 @@
+
+html,body{
+	height:100%;
+	width:100%;
+	
+}
+body{
+	margin: 0 0 0 0;
+	padding:0 0 0 0;
+	
+}
+.main { 
+	width:100%;
+  	float: left;
+    margin-right: -200px;
+   
+   height: 100%;
+} 
+
+
+.Left {
+	 width:15%;
+	 float:left;
+	
+	    background-color: #1BBC9B;
+	position: fixed;
+}
+
+.Right {
+	
+	 width: 85%;
+ float: right;
+ background-color: white;
+
+	
+}
+
+
+.content
+{
+	width: 	1300px;
+	margin-left: 	205px;	
+	background-color: white;
+	margin-top: 	-326px;
+	
+}
+
+.menuitems {
+	margin-left: -25px;
+}
+
+.trends {
+	margin-top: 100px;
+}
+
+.flashit{
+  color:#1BBC9B;
+
+	-webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+}
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+
+
+.login {	
+	 
+	 width: 250px;
+	 float:right;
+	 margin-left: 280px; 	
+	 display: inline-block;
+	 position: fixed;
+ 		
+}
+
+.register {
+	display: inline-block;	
+	margin-left:30px;
+	position: fixed;
+}
+
+.head{
+	height: 100px;
+	width: 100%;
+	background-color: #239c83;
+	position: fixed;
+}
+

@@ -1,0 +1,228 @@
+.img{
+	width:300px;
+	height: 400px;
+}
+
+.name{
+	margin-top: 0px;
+	font-size: 20px;
+	font-style: bold;
+	color: black;
+	margin-top: 30px;
+
+	
+	width: 300px;
+
+	margin-left: 200px;
+	border-color: #1BBC9B;
+	border-style: solid;
+	
+
+}
+
+.names{
+	margin-top: 0px;
+	font-size: 20px;
+	font-style: bold;
+	color: black;
+	margin-top: 70px;
+	margin-left: 200px;
+	width: 300px;
+	
+}
+
+.items{
+	margin-top: 0px;
+	font-size: 20px;
+	font-style: bold;
+	color: black;
+	margin-top: -700px;
+	margin-right: -700px;
+	float: right;
+	width: 300px;
+	
+}
+
+#icons {
+	
+	margin-top: 0px;
+	
+	color:black;
+	
+
+}
+
+#scroll {
+
+}
+
+.com{
+	margin-top: 0px;
+	font-size: 20px;
+	font-style: bold;
+	color: red;
+	margin-top: -750px;
+	margin-right: -700px;
+	float: right;
+	width: 300px;
+
+-webkit-animation: flash linear 1s infinite;
+	animation: flash linear 1s infinite;
+
+
+	
+}
+
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+
+.year{
+	margin-top: 0px;
+	font-size: 20px;
+	font-style: bold;
+	color: black;
+	margin-top: -180px;
+	margin-right: -700px;
+	float: right;
+	width: 300px;
+	
+}
+
+.commentText{
+	margin-top: 0px;
+	font-size: 14px;
+	font-style: bold;
+	color: black;
+}
+
+.p{
+	font-size: 12px;
+	color: black;
+	margin-top: -300px;
+	width: 300px;
+}
+
+.card{
+	/*margin-left: 110px;*/
+    /*display: inline-block;*/
+    /*width: 300px;*/
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid blue;
+}
+
+.card textarea{
+	color:black;	
+}
+
+.images{
+	width: 305px;
+	height: 405px;
+	margin-left: 200px;
+	border-color:  #1BBC9B;
+	border-style: solid;
+	margin-top: -130px;
+
+}
+
+
+.desk {
+	width: 200px;
+	margin-right: -50px;
+	margin-top: -100px;
+
+
+
+
+}
+
+.info {
+	width: 500px;
+	margin-top: 180px;
+		border-radius: 20px;
+	margin-bottom: 50px;
+margin-left: -100px;
+	
+
+}
+
+.comment {
+	margin-top: 0px;
+	font-size: 20px;
+	font-style: bold;
+	color: black;
+	margin-top: -100px;
+	margin-right: -400px;
+	float: right;
+	width: 300px;
+
+}
+
+#comment {
+	margin-top: 0px;
+	font-size: 20px;
+	font-style: bold;
+	color: black;
+	margin-top: 150px;
+	margin-right: -400px;
+	float: right;
+	width: 300px;
+	border-color: black;
+	border-style: solid;
+}
+
+#comments {
+	margin-top: -680px;
+	font-size: 20px;
+	font-style: bold;
+	color: black;
+	margin-top: -230px;
+	margin-right: -400px;
+	float: right;
+	width: 300px;
+}
+
+#commentss {
+	margin-top: 0px;
+	font-size: 20px;
+	font-style: bold;
+	color: black;
+	margin-top: -170px;
+	margin-right: -400px;
+	float: right;
+	width: 300px;
+}
+
+
+.all {
+
+	padding-bottom: 150px;
+
+}
+
+ul {
+	padding-bottom: 100px;
+
+
+}
+
+.inside {
+	border-radius: 25px;
+	border-color: black;
+	border-style: solid;
+	width: 900px;
+	margin-left: 100px;
+	height: 800px;
+}
+
+label{
+	text-align: justify;
+}

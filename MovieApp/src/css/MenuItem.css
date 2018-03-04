@@ -1,0 +1,53 @@
+.menuitems{
+	margin-top: 200px;
+	margin-left: 0px;
+}
+
+li{
+	height: 50px;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+li a:hover{
+	background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
+.menubar {
+  width:  100%;
+  height:   500px;
+}
+
+.menubar li h1 {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.menubar li:hover h1 {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.menubar {
+  padding-right: 300px;
+
+}
+
+ul.menuitems li {
+ 
+  list-style-type: none;
+  margin-left: 20px;
+
+}
+
+.links {
+  margin-left: 20%;
+  width:  1000px;
+  height:   1000px;
+}

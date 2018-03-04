@@ -1,0 +1,16 @@
+
+.comedies{
+	height: 	1000px;
+	margin-top:-500px;
+}
+
+
+.contacts {
+  margin-left: 150px;
+  width:500px;
+  height: 780px;
+    list-style-type: circle;
+    border-style: dotted;
+    border-radius: 15px;
+    background-color: white;
+}

@@ -1,0 +1,17 @@
+.Content { 
+	width:100%;
+  	float: left;
+  	height: 1000px;
+   
+} 
+
+.Top {
+	 height:15%;
+	 float:left;
+	 width: 100%;
+	background-color: white;
+	}
+.Bottom {
+	margin-top: 15%;
+	
+}
